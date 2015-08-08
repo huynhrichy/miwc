@@ -1,0 +1,16 @@
+Hello, my name is <%= @my_name %>
+
+<p>Here are some things:
+    <% @some_things.each do |thing| %>
+        <%= thing %>
+    <br/>
+    <% end %>
+</p>
+
+<p>Here are some tweets:
+    <br/>
+    <% @the_tweets.each do |tweet| %>
+        <%= tweet %>
+    <br/>
+    <% end %>
+</p>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Strapped &mdash; Coverstrap Template</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/strapped.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand nav-link" href="#top">Acme Corp</a>
+        </div> <!-- /.navbar-header -->
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#benefits" class="nav-link">Benefits</a></li>
+            <li><a href="#tour" class="nav-link">Tour</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><button class="btn btn-warning btn-sm navbar-btn">Sign Up</button></li>
+          </ul>
+        </div> <!-- /.navbar-collapse -->
+      </div> <!-- /.container -->
+    </nav> <!-- /.navbar -->
+
+  
+  <%= yield %>
+
+    <footer>
+      <div class="container clearfix">
+        <p class="pull-left">
+          Copyright &copy; Acme Corp 2013
+        </p>
+        <p class="pull-right">
+          a template from <a href="http://coverstrap.com">Coverstrap</a>
+        </p>
+      </div> <!-- /.container -->
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(".nav-link").click(function(e) {
+        e.preventDefault();
+        var link = $(this);
+        var href = link.attr("href");
+        $("html,body").animate({scrollTop: $(href).offset().top - 80}, 500);
+        link.closest(".navbar").find(".navbar-toggle:not(.collapsed)").click();
+      });
+    </script>
+  </body>
+</html>

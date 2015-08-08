@@ -1,0 +1,28 @@
+---
+convergence: |+
+  data: {"points":[{"x":70,"y":7},{"x":71,"y":43},{"x":72,"y":44},{"x":73,"y":12},{"x":74,"y":20},{"x":75,"y":8},{"x":76,"y":46},{"x":77,"y":22},{"x":78,"y":38},{"x":79,"y":9}],"id":"convergence","updatedAt":1406725707}
+
+valuation: |+
+  data: {"current":41,"last":89,"id":"valuation","updatedAt":1406725707}
+
+karma: |+
+  data: {"current":101438,"last":61892,"id":"karma","updatedAt":1406725707}
+
+synergy: |+
+  data: {"value":7,"id":"synergy","updatedAt":1406725707}
+
+buzzwords: |+
+  data: {"items":[{"label":"Enterprise","value":8},{"label":"Web 2.0","value":9},{"label":"Synergy","value":10},{"label":"Streamlininess","value":6},{"label":"Leverage","value":10},{"label":"Pivoting","value":7},{"label":"Exit strategy","value":6},{"label":"Paradigm shift","value":8},{"label":"Turn-key","value":6}],"id":"buzzwords","updatedAt":1406725708}
+
+welcome: |+
+  data: {"title":"The amazing title","text":"The time is 2014-07-30 14:06:08 +0100","id":"welcome","updatedAt":1406725707}
+
+twitter_mentions: |+
+  data: {"comments":[{"name":"Danny Prol","body":"hey @makeitwithcode , thanks for following ! Making code it´s funny","avatar":"https://pbs.twimg.com/profile_images/481024458732208128/ElhzItQu_normal.jpeg"},{"name":"Make it with Code","body":"@roalcantara Thanks for saying so","avatar":"https://pbs.twimg.com/profile_images/429616538643988480/lgAKipuS_normal.jpeg"},{"name":"360 PSG","body":"@makeitwithcode Thanks for the follow!","avatar":"https://pbs.twimg.com/profile_images/1683263181/360psg_normal.png"},{"name":"Abhishek Deshpande","body":"@makeitwithcode Thanks for Connecting mate !! have a great week ahead :)","avatar":"https://pbs.twimg.com/profile_images/3727334704/53d86fb88c1fe08c4f97ac4c1483424d_normal.png"},{"name":"Rogério R. Alcântara","body":"Pages showing The Team (creators) in the very 1st page have all my respect! Well done @makeitwithcode \\o/ http://t.co/uq4puRaMcr","avatar":"https://pbs.twimg.com/profile_images/425996441383731200/e5lcGnO7_normal.jpeg"},{"name":"Glenn Bascombe","body":"@makeitwithcode London 18-24's. Discover job opportunities where sports+technology collide, Free meetup 3rd July http://t.co/4LNoq2KVch","avatar":"https://pbs.twimg.com/profile_images/699698864/Glenn-Bascombe_jpg_normal.jpg"},{"name":"malek","body":"Thanks @tymihaberax @bawolaqafuco @makeitwithcode for being top new followers in my community this week (insight by http://t.co/kOoGoozKhd)","avatar":"https://pbs.twimg.com/profile_images/773136667/imageCAK2JBL2_normal.jpg"},{"name":"JPD Studio Inc.","body":"Happy Friday to our new connections! @makeitwithcode @EatInChef @distortedIy_ina @RomanceYourself #FF","avatar":"https://pbs.twimg.com/profile_images/2439621270/kizox45r4zgg5sjg4npi_normal.jpeg"},{"name":"Paul J. Klein","body":"#FF #FollowFriday \n@makeitwithcode \n@gamejammers118 \n@JMHHACKER \n@PartyOfSunshine","avatar":"https://pbs.twimg.com/profile_images/1999954602/twitter_avatar_normal.jpg"},{"name":"Make it with Code","body":"Yes - thanks again @new2code. And @azaleabursts great to have you on the course!","avatar":"https://pbs.twimg.com/profile_images/429616538643988480/lgAKipuS_normal.jpeg"},{"name":"Michael Martinez","body":"I'd like to thank @new2code and his blog for exposing me to the course, since its the only other mention I've seen of @makeitwithcode online","avatar":"https://abs.twimg.com/sticky/default_profile_images/default_profile_5_normal.png"},{"name":"Michael Martinez","body":"Just signed up for @makeitwithcode, they are offering the course for $30.00 for the next 2 days. Thanks for the opportunity!","avatar":"https://abs.twimg.com/sticky/default_profile_images/default_profile_5_normal.png"},{"name":"Chrishan Jayakody","body":"Hi @makeitwithcode thanks for #following","avatar":"https://pbs.twimg.com/profile_images/2220007175/me_normal.jpg"},{"name":"Nicolas Casel","body":"Learn quickly to code by making ten small applications https://t.co/iPmdaSquOL v/ @makeitwithcode","avatar":"https://pbs.twimg.com/profile_images/448546077658984448/YXapWUXD_normal.jpeg"},{"name":"Ari Vik","body":"@LizJ99 @jonhutson @makeitwithcode @Ra_Horakhty ;) Have a great week!","avatar":"https://pbs.twimg.com/profile_images/470595945185304576/yF3WbLM1_normal.jpeg"}],"id":"twitter_mentions","updatedAt":1404148992}
+
+recent_git_commitc: |+
+  data: {"text":"one step closer to a git commit message","id":"recent_git_commitc","updatedAt":1397044067}
+
+recent_git_commit: |+
+  data: {"text":"Commit messages now show in dashboard","id":"recent_git_commit","updatedAt":1404148992}
+

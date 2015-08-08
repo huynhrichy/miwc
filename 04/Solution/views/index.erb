@@ -1,0 +1,19 @@
+Hello, my name is <%= @my_name %>
+
+<p>Here are some of my tweets</p>
+<% @my_tweets.each do |thing| %>
+    <%= thing %>
+    <br/>
+<% end %>
+
+<p>Here are some things I like</p>
+<% @some_things.each do |thing| %>
+    <%= thing %>
+    <br/>
+<% end %>
+
+<p>Here are some things I don't like</p>
+<% @bad_things.each do |thing| %>
+    <%= thing %>
+    <br/>
+<% end %>
